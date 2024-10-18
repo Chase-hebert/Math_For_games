@@ -37,6 +37,23 @@ namespace MathLibrary
             this = Normalized;
             return this;
         }
+
+        
+
+        public override string ToString()
+        {
+            return "(" + X + ", " + Y + ")";
+        }
+
+        public float DotProduct(Vector2 other)
+        {
+            return (X * other.X) + (Y * other.Y);
+        }
+
+        public float Distance(Vector2 other)
+        {
+            return (other - this).Magnitude;
+        }
         public static bool operator ==(Vector2 lhs, Vector2 rhs)
         {
             return (lhs.X == rhs.X) && (lhs.Y == rhs.Y);

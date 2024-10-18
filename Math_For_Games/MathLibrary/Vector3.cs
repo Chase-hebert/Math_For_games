@@ -44,6 +44,21 @@ namespace MathLibrary
             return this;
         }
 
+       public float DotProduct(Vector3 other)
+        {
+            return (X * other.X) + (Y * other.Y) + (Z * other.Z);
+        }
+
+        public float Distance(Vector3 other)
+        {
+            return (other - this).Magnitude;
+        }
+
+        public float V3CrossProduct(Vector3 a, Vector3 b)
+        {
+            return ((a.Y * b.Z) - (a.Z * b.Y)) + ((a.Z * b.X) - (a.X * b.Z)) + ((a.X * b.Y) - (a.Y * b.X));    
+        }
+
         public static bool operator ==(Vector3 left, Vector3 right)
         {
             return (left.X == right.X) && (left.Y == right.Y) && (left.Z == right.Z);
