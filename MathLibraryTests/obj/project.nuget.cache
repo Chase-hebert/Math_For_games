@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "o5x5IaW2PHrRzjfJ6bqMYBJ43k4zEY1ArhOWdcD2sNUvefpgyZ6gFnruYKbbWilarp9+k9zP9wuoHGZ8rt6L4A==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\s248013\\Desktop\\Dev\\Math_For_games\\MathLibraryTests\\MathLibraryTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s248013\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\mstest.testadapter\\3.0.4\\mstest.testadapter.3.0.4.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\s248013\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\s248013\\Desktop\\Dev\\Math_For_games\\MathLibrary\\MathLibrary.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\s248013\\Desktop\\Dev\\Math_For_games\\MathLibrary\\MathLibrary.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
